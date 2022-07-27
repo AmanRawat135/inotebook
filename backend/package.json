@@ -4,12 +4,18 @@
   "description": "iNotebook - Your notebook on the cloud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.5.0",
     "moongoose": "^0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
