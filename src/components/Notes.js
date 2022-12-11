@@ -15,7 +15,7 @@ const Notes = (props) => {
             else{
                 navigate("/login");
             }
-    }, [])
+    }, )
     const ref = useRef(null)
     const refClose = useRef(null)
     const [note, setNote] = useState({id: "", etitle: "", edescription: "", etag: ""})
