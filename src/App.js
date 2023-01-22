@@ -12,6 +12,7 @@ import NoteState from './context/notes/NoteState';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import { useState } from 'react';
+const host = process.env.host || 5000;
 function App() {
   const [alert, setAlert] = useState(null);
   const showAlert = (message, type) => {
